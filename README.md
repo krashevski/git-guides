@@ -1,51 +1,56 @@
-# Git Guides — Мини-курс по работе с Git и GitHub
+# Git Guides — Mini-Course on Working with Git and GitHub
 
-📚 Этот репозиторий создан для начинающих разработчиков и всех, кто хочет изучить **основы работы с Git и GitHub**, а также научиться вести репозитории по стандартам.  
+[🇬🇧 English](README.md) | [🇷🇺 Русский](docs/RU/README_GIT_WORKING_RU.md)
 
-Ресурсы включают инструкции, примеры, шаблоны и пошаговые учебные материалы.
+📚 This repository is designed for beginner developers and anyone who wants to learn the basics of Git and GitHub, as well as how to maintain repositories according to standards.
 
-## 🚀 С чего начать
+Resources include instructions, examples, templates, and step-by-step tutorials.
 
-1. Если вы совсем новичок, откройте `tutorials/step-by-step-git-tutorial.md` для пошагового изучения Git.  
-2. Затем ознакомьтесь с `docs/`, чтобы понять стандарты работы с репозиторием и ветвления.  
-3. Используйте `examples/` для практики и закрепления знаний.  
-4. Применяйте готовые шаблоны из `templates/` для своих проектов.
+## 🚀 Getting Started
 
-## 📂 Структура репозитория
+1. If you're completely new to Git, open `tutorials/step-by-step-git-tutorial.md` for a step-by-step guide to Git.
 
-### 1️⃣ docs/ — Основные инструкции и стандарты
-- [REPOSITORY_STANDARDS_RU.md](docs/RU/REPOSITORY_STANDARDS_RU.md) — стандарты работы с репозиторием.  
-- [BRANCHING_STRATEGY.md](docs/RU/BRANCHING_STRATEGY_RU.md) — рекомендации по ветвлению.  
-- [COMMIT_GUIDELINES.md](docs/RU/COMMIT_GUIDELINES_RU.md) — правила написания коммитов.  
-- [PULL_REQUEST_PROCESS.md](docs/RU/PULL_REQUEST_PROCESS_RU.md) — процесс работы с pull request.  
+2. Then, read `docs/` to understand repository management and branching standards.
 
-### 2️⃣ examples/ — Примеры практического применения
-- Примеры работы с ветками, коммитами, разрешением конфликтов.
+3. Use `examples/` for practice and reinforcement.
 
-### 3️⃣ tutorials/ — Пошаговые инструкции
-- `step-by-step-git-tutorial.md` — мини-курс для новичков, начиная с установки Git и до работы с GitHub.
+4. Apply ready-made templates from `templates/` to your projects.
 
-### 4️⃣ templates/ — Готовые шаблоны для проектов
-- `README_TEMPLATE.md` — шаблон README для новых проектов.  
-- `ISSUE_TEMPLATE.md` — шаблон для создания issues.  
-- `PULL_REQUEST_TEMPLATE.md` — шаблон для pull request.  
+## 📂 Repository Structure
 
-## 💡 Как использовать
+### 1️⃣ docs/ — Basic Instructions and Standards
+- [REPOSITORY_STANDARDS_RU.md](docs/RU/REPOSITORY_STANDARDS_RU.md) — Repository working standards.
+- [BRANCHING_STRATEGY.md](docs/RU/BRANCHING_STRATEGY_RU.md) — Branching guidelines.
+- [COMMIT_GUIDELINES.md](docs/RU/COMMIT_GUIDELINES_RU.md) — Commit writing rules.
+- [PULL_REQUEST_PROCESS.md](docs/RU/PULL_REQUEST_PROCESS_RU.md) — Pull request process.
 
-- Читайте инструкции в `docs/` и выполняйте шаги из `tutorials/`.  
-- Пробуйте создавать ветки и коммиты на практике, используя `examples/`.  
-- Подключайте шаблоны из `templates/` к своим репозиториям.  
-- Если что-то непонятно — создайте issue или pull request в этом репозитории для обсуждения.
+### 2️⃣ examples/ — Practical examples
+- Examples of working with branches, commits, and conflict resolution.
 
-## 📣 Участие и помощь
+### 3️⃣ tutorials/ — Step-by-step instructions
+- `step-by-step-git-tutorial.md` — a mini-course for beginners, starting with installing Git and working with GitHub.
 
-Этот репозиторий открыт для предложений и улучшений.  
-Если хотите добавить учебный материал, исправить ошибки или предложить новые шаблоны — создавайте **pull request**.  
+### 4️⃣ templates/ — Ready-made project templates
+- `README_TEMPLATE.md` — a README template for new projects.
+- `ISSUE_TEMPLATE.md` — a template for creating issues.
+- `PULL_REQUEST_TEMPLATE.md` — a template for pull requests.
 
-### ⚡ Быстрые ссылки
+## 💡 How to use
 
-- [docs/](docs/) — инструкции и стандарты  
-- [examples/](examples/) — примеры работы  
-- [tutorials/](tutorials/) — пошаговое обучение  
-- [templates/](templates/) — готовые шаблоны  
+- Read the instructions in `docs/` and follow the steps in `tutorials/`.
+- Practice creating branches and commits using `examples/`.
+- Include templates from `templates/` in your repositories.
+- If anything is unclear, create an issue or pull request in this repository for discussion.
 
+## 📣 Participation and Help
+
+This repository is open to suggestions and improvements.
+
+If you want to add training material, fix bugs, or suggest new templates, create a **pull request**.
+
+### ⚡ Quick Links
+
+- [docs/](docs/) — instructions and standards
+- [examples/](examples/) — working examples
+- [tutorials/](tutorials/) — step-by-step training
+- [templates/](templates/) — ready-made templates
