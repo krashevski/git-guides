@@ -16,7 +16,7 @@
 ## 📂 Структура репозитория
 
 ### 1️⃣ docs/ — Основные инструкции и стандарты
-- [REPOSITORY_STANDARDS_RU.md](docs/RU/REPOSITORY_STANDARDS_RU.md) — стандарты работы с репозиторием.  
+- [REPOSITORY_STANDARDS_RU.md](REPOSITORY_STANDARDS_RU.md) — стандарты работы с репозиторием.  
 - [BRANCHING_STRATEGY.md](docs/RU/BRANCHING_STRATEGY_RU.md) — рекомендации по ветвлению.  
 - [COMMIT_GUIDELINES.md](docs/RU/COMMIT_GUIDELINES_RU.md) — правила написания коммитов.  
 - [PULL_REQUEST_PROCESS.md](docs/RU/PULL_REQUEST_PROCESS_RU.md) — процесс работы с pull request.  
