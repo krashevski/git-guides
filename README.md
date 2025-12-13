@@ -19,10 +19,10 @@ Resources include instructions, examples, templates, and step-by-step tutorials.
 ## 📂 Repository Structure
 
 ### 1️⃣ docs/ — Basic Instructions and Standards
-- [REPOSITORY_STANDARDS_RU.md](docs/RU/REPOSITORY_STANDARDS_RU.md) — Repository working standards.
-- [BRANCHING_STRATEGY.md](docs/RU/BRANCHING_STRATEGY_RU.md) — Branching guidelines.
-- [COMMIT_GUIDELINES.md](docs/RU/COMMIT_GUIDELINES_RU.md) — Commit writing rules.
-- [PULL_REQUEST_PROCESS.md](docs/RU/PULL_REQUEST_PROCESS_RU.md) — Pull request process.
+- [REPOSITORY_STANDARDS_EN.md](docs/EN/REPOSITORY_STANDARDS_EN.md) — Repository working standards.
+- [BRANCHING_STRATEGY_EN.md](docs/EN/BRANCHING_STRATEGY_EN.md) — Branching guidelines.
+- [COMMIT_GUIDELINES_EN.md](docs/EN/COMMIT_GUIDELINES_EN.md) — Commit writing rules.
+- [PULL_REQUEST_PROCESS_EN.md](docs/EN/PULL_REQUEST_PROCESS_EN.md) — Pull request process.
 
 ### 2️⃣ examples/ — Practical examples
 - Examples of working with branches, commits, and conflict resolution.
