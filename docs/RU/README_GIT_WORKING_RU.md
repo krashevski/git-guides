@@ -46,8 +46,8 @@
 
 ### ⚡ Быстрые ссылки
 
-- [docs/](docs/) — инструкции и стандарты  
-- [examples/](examples/) — примеры работы  
-- [tutorials/](tutorials/) — пошаговое обучение  
-- [templates/](templates/) — готовые шаблоны  
+- [docs/](../) — инструкции и стандарты  
+- [examples/](../../examples/) — примеры работы  
+- [tutorials/](../../tutorials/) — пошаговое обучение  
+- [templates/](../../templates/) — готовые шаблоны  
 
