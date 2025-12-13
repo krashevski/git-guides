@@ -22,9 +22,9 @@ feature/<краткое название задачи>
 ```
 
 Примеры:
-feature/language-switch
-feature/disk-check-improvements
-feature/messages-refactoring
+- feature/language-switch
+- feature/disk-check-improvements
+- feature/messages-refactoring
 
 ### 1.3 Ветви исправления ошибок
 Исправления ошибок:

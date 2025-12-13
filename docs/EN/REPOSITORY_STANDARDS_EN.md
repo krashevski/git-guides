@@ -20,9 +20,9 @@ feature/<short-name-of-the-task>
 ```
 
 Examples:
-feature/language-switch
-feature/disk-check-improvements
-feature/messages-refactoring
+- feature/language-switch
+- feature/disk-check-improvements
+- feature/messages-refactoring
 
 ### 1.3 Bugfix Branches
 Bug fixes:
