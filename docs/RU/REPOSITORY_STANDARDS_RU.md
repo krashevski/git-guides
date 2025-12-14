@@ -1,4 +1,4 @@
-# 📘 Руководство по управлению репозиторием (стандартизация) — Reincarnation Backup Kit
+# 📘 Руководстводящие принципы по управлению репозиторием (стандартизация) — Reincarnation Backup Kit
 
 [🇬🇧 English]( ../EN/REPOSITORY_STANDARDS_EN.md) | [🇷🇺 Русский](REPOSITORY_STANDARDS_RU.md)
 
