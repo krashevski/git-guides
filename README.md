@@ -51,6 +51,7 @@ If you want to add training material, fix bugs, or suggest new templates, create
 ### ⚡ Quick Links
 
 - [docs/](docs/) — instructions and standards
+- [images/](images/) - screenshots
 - [examples/](examples/) — working examples
 - [tutorials/](tutorials/) — step-by-step training
 - [templates/](templates/) — ready-made templates
