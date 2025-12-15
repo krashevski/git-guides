@@ -1,0 +1,57 @@
+# Git Guides — Mini-Course on Working with Git and GitHub
+
+[🇬🇧 English](README_GIT_WORKING_EN.md) | [🇷🇺 Русский](../../docs/RU/README_GIT_WORKING_RU.md)
+
+📚 This repository is designed for beginner developers and anyone who wants to learn the basics of Git and GitHub, as well as how to maintain repositories according to standards.
+
+Resources include instructions, examples, templates, and step-by-step tutorials.
+
+## 🚀 Getting Started
+
+1. If you're completely new to Git, open `tutorials/step-by-step-git-tutorial.md` for a step-by-step guide to Git.
+
+2. Then, read `docs/` to understand repository management and branching standards.
+
+3. Use `examples/` for practice and reinforcement.
+
+4. Apply ready-made templates from `templates/` to your projects.
+
+## 📂 Repository Structure
+
+### 1️⃣ docs/ — Basic Instructions and Standards
+- [REPOSITORY_STANDARDS_EN.md](REPOSITORY_STANDARDS_EN.md) — Repository working standards.
+- [BRANCHING_STRATEGY_EN.md](BRANCHING_STRATEGY_EN.md) — Branching guidelines.
+- [COMMIT_GUIDELINES_EN.md](COMMIT_GUIDELINES_EN.md) — Commit writing rules.
+- [PULL_REQUEST_PROCESS_EN.md](PULL_REQUEST_PROCESS_EN.md) — Pull request process.
+
+### 2️⃣ examples/ — Practical examples
+- Examples of working with branches, commits, and conflict resolution.
+
+### 3️⃣ tutorials/ — Step-by-step instructions
+- `step-by-step-git-tutorial.md` — a mini-course for beginners, starting with installing Git and working with GitHub.
+
+### 4️⃣ templates/ — Ready-made project templates
+- `README_TEMPLATE.md` — a README template for new projects.
+- `ISSUE_TEMPLATE.md` — a template for creating issues.
+- `PULL_REQUEST_TEMPLATE.md` — a template for pull requests.
+
+## 💡 How to use
+
+- Read the instructions in `docs/` and follow the steps in `tutorials/`.
+- Practice creating branches and commits using `examples/`.
+- Include templates from `templates/` in your repositories.
+- If anything is unclear, create an issue or pull request in this repository for discussion.
+
+## 📣 Participation and Help
+
+This repository is open to suggestions and improvements.
+
+If you want to add training material, fix bugs, or suggest new templates, create a **pull request**.
+
+### ⚡ Quick Links
+
+- [docs/](../../docs/) — instructions and standards
+- [images/](../../images/) - screenshots
+- [examples/](../../examples/) — working examples
+- [tutorials/](../../tutorials/) — step-by-step training
+- [templates/](../../templates/) — ready-made templates
