@@ -1,6 +1,6 @@
 # ✅ Правильный порядок локального тестирования REBK
 
-[🇬🇧 English]( ../EN/README_TEST_REBK EN.md) | [🇷🇺 Русский](README_TEST_REBK_RU.md)
+[🇬🇧 English](../EN/README_TEST_REBK EN.md) | [🇷🇺 Русский](README_TEST_REBK_RU.md)
 
 ## 1️⃣ Клонировать репозиторий заново (чистая проверка)
 
