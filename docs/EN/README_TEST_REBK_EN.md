@@ -1,5 +1,7 @@
 # ✅ Correct procedure for local REBK testing
 
+[🇬🇧 English](README_TEST_REBK_EN.md) | [🇷🇺 Русский](../RU/README_TEST_REBK_RU.md)
+
 ## 1️⃣ Clone the repository again (clean checkout)
 
 Important: not from the current working copy.

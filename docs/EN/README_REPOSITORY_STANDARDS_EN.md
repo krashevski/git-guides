@@ -1,6 +1,6 @@
 # 📘 Repository Management Guidelines (Standardization) — Reincarnation Backup Kit
 
-[🇬🇧 English](REPOSITORY_STANDARDS_EN.md) | [🇷🇺 Русский](../RU/REPOSITORY_STANDARDS_RU.md)
+[🇬🇧 English](README_REPOSITORY_STANDARDS_EN.md) | [🇷🇺 Русский](../RU/README_REPOSITORY_STANDARDS_RU.md)
 
 This document defines guidelines for repository maintenance, branching, commits, testing, and releases.
 The goal is to maintain high code quality, a stable main branch, and development transparency.
