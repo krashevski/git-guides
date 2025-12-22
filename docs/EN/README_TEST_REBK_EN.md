@@ -102,6 +102,10 @@ See:
 > ✔ correct logs in /mnt/backups/logs
 > ✔ safe to restart
 
+> ⚠️ Important: Running scripts directly from a cloned repository
+may result in incorrect behavior.
+Use install.sh before performing full testing.
+
 ## 🟢 If Everything went smoothly.
 
 The next logical step.
