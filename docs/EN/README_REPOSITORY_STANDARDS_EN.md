@@ -7,13 +7,13 @@ The goal is to maintain high code quality, a stable main branch, and development
 
 ## 1. Branching
 
-### 1.1 Main Branches
+### 1.1 The main branch and other branches
 * main — a stable, secure branch.
 Contains final, functional, fully tested code.
 * develop (optional) — an intermediate branch for integrating features and preparing releases.
 If the project is small, develop can be omitted.
 
-### 1.2 Feature Branches
+### 1.2 Feature branches
 Each task is implemented in a separate branch:
 ```bash
 feature/<short-name-of-the-task>
@@ -24,7 +24,7 @@ Examples:
 - feature/disk-check-improvements
 - feature/messages-refactoring
 
-### 1.3 Bugfix Branches
+### 1.3 Bugfix branches
 Bug fixes:
 ```bash
 bugfix/<short-description>
@@ -34,7 +34,7 @@ Examples:
 bugfix/mount-detection
 bugfix/menu-return-loop
 
-### 1.4 Release Branches
+### 1.4 Release branches
 - If develop is used, the following is created before the release:
 ```bash
 release/<version>
@@ -42,7 +42,7 @@ release/<version>
 
 - Otherwise, releases are built directly from main.
 
-### 1.5 Backup Branches
+### 1.5 Backup branches
 Before breaking changes, a protective branch is created:
 ```bash
 backup/<date or task-name>
@@ -53,10 +53,10 @@ Example:
 backup/2025-12-10-pre-refactor
 ```
 
-## 2. Commit Rules
+## 2. Commit rules
 
-### 2.1 Commit Message Format
-Use a meaningful, short, and understandable format:
+### 2.1 Commit message format
+Use a format that is meaningful, concise, and clear:
 ```bash
 <type>: <short description>
 ```
@@ -83,7 +83,7 @@ refactor: split messages.sh into modules
 1. The commit contains a completed change.
 2. Large changes should be grouped into a single logical commit to keep history clean and readable.
 
-## 3. Merging Rules
+## 3. Merging rules
 
 ### 3.1 Merging with main
 1. Allowed only after full testing (see section 5).
@@ -116,9 +116,9 @@ git pull
 git branch -d feature/xxx
 git push origin --delete feature/xxx
 
-## 4. The Release Process
+## 4. The Release process
 
-### 4.1 Version Numbering
+### 4.1 Version numbering
 The SemVer scheme is used:
 ```bash
 MAJOR.MINOR.PATCH
@@ -142,11 +142,11 @@ git tag -a v1.2.0 -m "Release 1.2.0"
 git push origin v1.2.0
 ```
 
-## 5. Testing Requirements Before Publishing
+## 5. Testing requirements before publishing
 
-Any changes must be tested on the local machine before being pushed to main.
+Changes must be tested on the local machine before being pushed to main.
 
-## 6. OpenSource Code Style
+## 6. OpenSource code style
 
 The code should be human-readable, contain clear variable names, a neat format, and include comments where necessary.
 
