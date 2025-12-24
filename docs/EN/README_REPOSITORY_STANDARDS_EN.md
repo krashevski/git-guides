@@ -87,12 +87,11 @@ refactor: split messages.sh into modules
 
 ### 3.1 Merging with main
 1. Allowed only after full testing (see section 5).
-2. Merging is performed with the following command:
-Merging can be performed using either:
-a) merge — preserves full commit history
-b) squash merge — combines all commits into one
-* squash is convenient if there was rough work or many small "fix" or "WIP" commits within a feature.
-* squash creates a single commit in main, which makes the history cleaner.
+2. Merging is performed with command:
+- merge — preserves full commit history
+- squash merge — combines all commits into one
+> [I] squash is convenient if there was rough work or many small "fix" or "WIP" commits within a feature.
+> [I] squash creates a single commit in main, which makes the history cleaner.
 3. Pushing to main is prohibited; all changes must go through feature branches and testing.
 
 ### 3.2 How to updating main from a feature branch
