@@ -1,4 +1,4 @@
-# Git Guides — Mini-Course on Working with Git and GitHub
+# Git Guides — Mini-Course on working with Git and GitHub
 
 [🇬🇧 English](README.md) | [🇷🇺 Русский](docs/RU/README_GIT_WORKING_RU.md)
 
