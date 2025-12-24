@@ -6,7 +6,7 @@
 
 Resources include instructions, examples, templates, and step-by-step tutorials.
 
-## 🚀 Getting Started
+## 🚀 Getting started
 
 1. If you're completely new to Git, open `tutorials/step-by-step-git-tutorial.md` for a step-by-step guide to Git.
 
@@ -16,7 +16,7 @@ Resources include instructions, examples, templates, and step-by-step tutorials.
 
 4. Apply ready-made templates from `templates/` to your projects.
 
-## 📂 Repository Structure
+## 📂 Repository structure
 
 ### 1️⃣ docs/ — Basic Instructions and Standards
 - [REPOSITORY_STANDARDS_EN.md](docs/EN/README_REPOSITORY_STANDARDS_EN.md) — Repository working standards.
@@ -31,9 +31,9 @@ Resources include instructions, examples, templates, and step-by-step tutorials.
 - `step-by-step-git-tutorial.md` — a mini-course for beginners, starting with installing Git and working with GitHub.
 
 ### 4️⃣ templates/ — Ready-made project templates
-- `README_TEMPLATE.md` — a README template for new projects.
-- `ISSUE_TEMPLATE.md` — a template for creating issues.
-- `PULL_REQUEST_TEMPLATE.md` — a template for pull requests.
+- `README_TEMPLATE.md` *(planned)* — a README template for new projects.
+- `ISSUE_TEMPLATE.md` *(planned)* — a template for creating issues.
+- `PULL_REQUEST_TEMPLATE.md` *(planned)* — a template for pull requests.
 
 ## 💡 How to use
 
@@ -42,13 +42,13 @@ Resources include instructions, examples, templates, and step-by-step tutorials.
 - Include templates from `templates/` in your repositories.
 - If anything is unclear, create an issue or pull request in this repository for discussion.
 
-## 📣 Participation and Help
+## 📣 Participation and help
 
 This repository is open to suggestions and improvements.
 
 If you want to add training material, fix bugs, or suggest new templates, create a **pull request**.
 
-### ⚡ Quick Links
+### ⚡ Quick links
 
 - [docs/](docs/) — instructions and standards
 - [images/](images/) - screenshots
