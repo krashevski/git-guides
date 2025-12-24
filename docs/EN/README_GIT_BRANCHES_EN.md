@@ -89,7 +89,7 @@ git rebase origin/feature/update-readme
 ```
 
 ### See also
-- Cheat Sheet: Safely Rebase README [README_GIT_REBASE_RU.md](README_GIT_REBASE_RU.md)
+- Cheat Sheet: Safely Rebase README [README_GIT_REBASE_EN.md](README_GIT_REBASE_EN.md)
 
 ### 3. Rule for checking changes in README:
 ```bash
