@@ -98,9 +98,9 @@ git diff
 ```
 
 Check that there are no:
-* <<<<<<<
-* =======
-* >>>>>>>
+* `<<<<<<<`
+* `=======`
+* `>>>>>>>`
 
 ### 4. Add Changes to README files:
 ```bash
