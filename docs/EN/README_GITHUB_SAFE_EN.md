@@ -34,8 +34,9 @@ git checkout -b feature/name
 export GIT_TOKEN="your_token_here"
 ```
 
-* Never store your token in the repository (.env, .bashrc, README, etc.).
-* When finished, delete the variable:
+Recommendations:
+- Never store your token in the repository (.env, .bashrc, README, etc.).
+- When finished, delete the variable:
 ```bash
 unset GIT_TOKEN
 ```
@@ -75,7 +76,7 @@ gpg --list-secret-keys
 ```
 
 Recommendations:
-The permissions should be 700 for the directory and 600 for the key files.
+- The permissions should be 700 for the directory and 600 for the key files.
 ```bash
 chmod 700 ~/.gnupg
 chmod 600 ~/.gnupg/*
@@ -89,9 +90,9 @@ ssh-keygen -p -f ~/.ssh/id_ed25519
 ```
 
 * Next:
-1. Enter the old passphrase (if any)
-2. Enter the new passphrase
-3. Confirm
+  1. Enter the old passphrase (if any)
+  2. Enter the new passphrase
+  3. Confirm
 The private key will remain the same, only the security will change.
 
 * Check key permissions:
