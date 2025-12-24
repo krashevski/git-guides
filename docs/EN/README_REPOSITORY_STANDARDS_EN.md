@@ -97,8 +97,8 @@ refactor: split messages.sh into modules
 
 3. Pushing to main is prohibited; all changes must go through feature branches and testing.
 
-### 3.2 How to updating main from a feature branch
-1. Updating a feature branch with the latest changes from main
+### 3.2 How to update the master branch from the development branch
+1. Update the development branch with the latest changes from the master branch:
 ```bash
 git checkout main
 git pull origin main
@@ -106,19 +106,16 @@ git checkout feature/xxx
 git merge main
 ```
 
-2. If there are any conflicts, fix them.
+2. If any conflicts arise, resolve them.
 3. Test the package locally.
-
-Only after testing can you merge into main.
-
-4. Removing old branches
-To keep the repository clean, you can remove unnecessary branches:
+Merge into the master branch only after testing.
+4. Deleting old branches
+Delete unnecessary branches to keep your repository clean:
 ```bash
 git checkout main
 git pull
 git branch -d feature/xxx
 git push origin --delete feature/xxx
-```
 
 ## 4. The Release Process
 
@@ -157,7 +154,7 @@ The code should be human-readable, contain clear variable names, a neat format, 
 ## 7. Summary
 
 This standard ensures:
-- Mainline stability,
-- Professional project quality,
-- Reduced risk of regressions,
+- Mainline stability.
+- Professional project quality.
+- Reduced risk of regressions.
 - Scheduled releases.
