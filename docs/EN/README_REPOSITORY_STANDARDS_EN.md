@@ -62,14 +62,14 @@ Use a meaningful, short, and understandable format:
 ```
 
 Types:
-feat — new feature
-fix — fix
-refactor — internal logic improvements
-docs — documentation changes
-test — tests
-build — project build/structure
-style — minor edits without changing logic
-chore — other maintenance
+- feat — new feature
+- fix — fix
+- refactor — internal logic improvements
+- docs — documentation changes
+- test — tests
+- build — project build/structure
+- style — minor edits without changing logic
+- chore — other maintenance
 
 Examples:
 ```bash
