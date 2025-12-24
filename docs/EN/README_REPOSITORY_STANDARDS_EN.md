@@ -91,8 +91,9 @@ refactor: split messages.sh into modules
 - merge — preserves full commit history
 - squash merge — combines all commits into one
 
-> [I] squash is convenient if there was rough work or many small "fix" or "WIP" commits within a feature.
-> [I] squash creates a single commit in main, which makes the history cleaner.
+> **[I] Squash**
+> - squash is convenient if there was rough work or many small "fix" or "WIP" commits within a feature.
+> - squash creates a single commit in main, which makes the history cleaner.
 
 3. Pushing to main is prohibited; all changes must go through feature branches and testing.
 
