@@ -104,8 +104,8 @@ Check that there are no:
 
 ### 4. Add Changes to README files:
 ```bash
-docs/RU/README_GIT_REBASE_RU.md
-docs/EN/README_GIT_REBASE_EN.md
+nano docs/RU/README_GIT_REBASE_RU.md
+nano docs/EN/README_GIT_REBASE_EN.md
 ```
 
 ### 5. Add changes to the index:

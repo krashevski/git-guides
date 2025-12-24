@@ -104,8 +104,8 @@ git diff
 
 ### 4. Внесите изменения в файлы README:
 ```bash
-docs/RU/README_GIT_REBASE_RU.md
-docs/EN/README_GIT_REBASE_EN.md
+nano docs/RU/README_GIT_REBASE_RU.md
+nano docs/EN/README_GIT_REBASE_EN.md
 ```
 
 ### 5. Добавьте изменения в индекс:
