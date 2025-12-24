@@ -83,30 +83,30 @@ chmod 600 ~/.gnupg/*
 
 ## 5. Changing the SSH Key Passphrase
 
-Run:
+* Run:
 ```bash
 ssh-keygen -p -f ~/.ssh/id_ed25519
 ```
 
-Next:
+* Next:
 1. Enter the old passphrase (if any)
 2. Enter the new passphrase
 3. Confirm
 The private key will remain the same, only the security will change.
 
-Check key permissions:
+* Check key permissions:
 ```bash
 ls -ld ~/.ssh
 ls -l ~/.ssh
 ```
 
-Expected:
-* ~/.ssh → drwx------
-* id_ed25519 → -rw-------
-* id_ed25519.pub → -rw-r--r--
-* authorized_keys → -rw-------
+* Expected:
+  - ~/.ssh → drwx------
+  - id_ed25519 → -rw-------
+  - id_ed25519.pub → -rw-r--r--
+  - authorized_keys → -rw-------
 
-If suddenly it’s not right, fix it:
+* If suddenly it’s not right, fix it:
 ```bash
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_ed25519
@@ -114,12 +114,12 @@ chmod 644 ~/.ssh/id_ed25519.pub
 chmod 600 ~/.ssh/authorized_keys
 ```
 
-Check via ssh-agent (optional)
+* Check via ssh-agent (optional)
 ```bash
 ssh-add ~/.ssh/id_ed25519
 ```
 
-View loaded keys:
+* View loaded keys:
 ```bash
 ssh-add -l
 ```
