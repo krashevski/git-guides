@@ -114,7 +114,7 @@ chmod 644 ~/.ssh/id_ed25519.pub
 chmod 600 ~/.ssh/authorized_keys
 ```
 
-Проверка через ssh-agent (опционально)
+* Проверка через ssh-agent (опционально)
 ```bash
 ssh-add ~/.ssh/id_ed25519
 ```
