@@ -98,7 +98,7 @@ refactor: split messages.sh into modules
 3. Pushing to main is prohibited; all changes must go through feature branches and testing.
 
 ### 3.2 How to update the master branch from the development branch
-1. Update the development branch with the latest changes from the master branch:
+1. Update the development branch with the latest changes from the main branch:
 ```bash
 git checkout main
 git pull origin main
@@ -106,11 +106,10 @@ git checkout feature/xxx
 git merge main
 ```
 
-2. If any conflicts arise, resolve them.
+2. Eliminate conflicts.
 3. Test the package locally.
-Merge into the master branch only after testing.
-4. Deleting old branches
-Delete unnecessary branches to keep your repository clean:
+4. Merge into main branch only after testing.
+5. Delete unnecessary branches to keep your repository clean:
 ```bash
 git checkout main
 git pull
