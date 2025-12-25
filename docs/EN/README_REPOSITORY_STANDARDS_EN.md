@@ -83,6 +83,9 @@ refactor: split messages.sh into modules
 1. The commit contains a completed change.
 2. Large changes should be grouped into a single logical commit to keep history clean and readable.
 
+### See also
+- Commit Message Convention [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_EN.md)
+
 ## 3. Merging rules
 
 ### 3.1 Merging with main
@@ -157,3 +160,7 @@ This standard ensures:
 - Professional project quality.
 - Reduced risk of regressions.
 - Scheduled releases.
+
+## See also
+
+- Commit Message Convention [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_EN.md)
