@@ -52,3 +52,9 @@
 - [tutorials/](../../tutorials/) — пошаговое обучение  
 - [templates/](../../templates/) — готовые шаблоны  
 
+## 🖼️ Screenshots
+
+<p align="center"> 
+<img src="../../images/Git_Help.png" width="45%"/> 
+<img src="../../images/Backup_Kit_Git_status_check.png" width="45%"/> </p> 
+

@@ -55,3 +55,9 @@ If you want to add training material, fix bugs, or suggest new templates, create
 - [examples/](examples/) — working examples
 - [tutorials/](tutorials/) — step-by-step training
 - [templates/](templates/) — ready-made templates
+
+## 🖼️ Screenshots
+
+<p align="center"> 
+<img src="images/Git_Help.png" width="45%"/> 
+<img src="images/Backup_Kit_Git_status_check.png" width="45%"/> </p> 
