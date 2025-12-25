@@ -110,3 +110,7 @@ Check the result:
 ```bash
 git log --oneline -3
 ```
+
+## See also
+
+- Repository Management Guidelines [REPOSITORY_STANDARDS_EN.md](docs/EN/README_REPOSITORY_STANDARDS_EN.md)

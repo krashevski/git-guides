@@ -111,3 +111,7 @@ git push
 ```bash
 git log --oneline -3
 ```
+
+## Смотри также
+
+- Руководящие принципы по управлению репозиторием [REPOSITORY_STANDARDS_RU.md](README_REPOSITORY_STANDARDS_RU.md)
