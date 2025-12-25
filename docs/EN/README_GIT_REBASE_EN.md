@@ -103,4 +103,4 @@ git push --force-with-lease origin feature/i18n-updates
 ## See also
 
 - Working with Git and GitHub Branches README file [README_GIT_BRANCHES_EN.md](README_GIT_BRANCHES_EN.md)
-- Mini Git Cheat Sheet file [README_GIT_EN.md](README_GIT_EN.md)
+- Repository Management Guidelines [README_REPOSITORY_STANDARDS_EN.md](README_REPOSITORY_STANDARDS_EN.md)
