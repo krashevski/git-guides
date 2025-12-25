@@ -70,6 +70,6 @@ sudo apt-get -f install
 
 > [i] Все скрипты должны находиться в одной папке или быть в `$HOME/bin`.
 
-См. полную документацию в [README_RU.md](README_RU.md).
+См. полную документацию в [README_TEMPLATE_RU.md](README_TEMPLATE_RU.md).
 
 

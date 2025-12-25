@@ -148,4 +148,4 @@ bash restore_ubuntu-22.04-v1.3.sh
 
 ## See Also
 
-For quick start instructions and examples, refer to [QUICKSTART.md](QUICKSTART.md)
+For quick start instructions and examples, refer to [QUICKSTART_TEMPLATE.md](QUICKSTART_TEMPLATE.md)

@@ -71,4 +71,4 @@ sudo apt-get -f install
 
 > [i] All scripts must be in the same folder or be in `$HOME/bin`.
 
-See full documentation in [README.md](README.md).
+See full documentation in [README_TEMPLATE.md](README_TEMPLATE.md).
