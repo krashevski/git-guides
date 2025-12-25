@@ -164,3 +164,4 @@ This standard ensures:
 ## See also
 
 - Commit Message Convention [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_EN.md)
+- Cheat sheet: safe upgrades via кebase [README_GIT_REBASE_EN.md](README_GIT_REBASE_EN.md)

@@ -167,3 +167,4 @@ git push origin v1.2.0
 ## Смотри также
 
 - Соглашение о правилах коммит сообщений [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_RU.md)
+- Шпаргалка: безопасное обновление через rebase [](README_GIT_REBASE_RU.md)
