@@ -181,4 +181,3 @@ Explanation of the scheme:
 
 - Deleting from GitHub Branches [README_GIT_BRANCHES_DELETE_EN.md](README_GIT_BRANCHES_DELETE_EN.md)
 - Cheat Sheet: Safe Rebase [README_GIT_REBASE_EN.md](README_GIT_REBASE_EN.md)
-- Mini Git Cheat Sheet [README_GIT_EN.md](README_GIT_EN.md)
