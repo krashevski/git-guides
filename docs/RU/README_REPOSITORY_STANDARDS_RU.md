@@ -175,3 +175,4 @@ git push origin v1.2.0
 - Работа с ветками Git и GitHub [README_GIT_BRANCHES_RU.md](README_GIT_BRANCHES_RU.md)
 - Соглашение о правилах коммит сообщений [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_RU.md)
 - Шпаргалка: безопасное обновление через rebase [README_GIT_REBASE_RU.md](README_GIT_REBASE_RU.md)
+- Безопасная работа с GitHub [README_GITHUB_SAFE_RU.md](README_GITHUB_SAFE_RU.md)
