@@ -232,4 +232,4 @@ ls -lh ~/backup-repository.tar.gz
 
 ## Смотри также
 
-- Repository Management Guidelines [REPOSITORY_STANDARDS_EN.md](README_REPOSITORY_STANDARDS_EN.md)
+- Руководящие принципы по управлению репозиторием [REPOSITORY_STANDARDS_RU.md](README_REPOSITORY_STANDARDS_RU.md)
