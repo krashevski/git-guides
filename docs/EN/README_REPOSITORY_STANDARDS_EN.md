@@ -55,6 +55,7 @@ backup/2025-12-10-pre-refactor
 
 ### See also
 - Working with Git and GitHub Branches [README_GIT_BRANCHES_EN.md](README_GIT_BRANCHES_EN.md)
+- Cheat sheet: safe upgrades via кebase [README_GIT_REBASE_EN.md](README_GIT_REBASE_EN.md)
 
 ## 2. Commit rules
 

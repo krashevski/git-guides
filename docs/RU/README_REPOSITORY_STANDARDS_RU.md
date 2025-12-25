@@ -58,6 +58,7 @@ backup/2025-12-10-pre-refactor
 
 ### Смотри также
 - Работа с ветками Git и GitHub [README_GIT_BRANCHES_RU.md](README_GIT_BRANCHES_RU.md)
+- Шпаргалка: безопасное обновление через rebase [README_GIT_REBASE_RU.md](README_GIT_REBASE_RU.md)
 
 ### Смотри также
 
