@@ -113,4 +113,4 @@ git log --oneline -3
 
 ## See also
 
-- Repository Management Guidelines [REPOSITORY_STANDARDS_EN.md](docs/EN/README_REPOSITORY_STANDARDS_EN.md)
+- Repository Management Guidelines [REPOSITORY_STANDARDS_EN.md](README_REPOSITORY_STANDARDS_EN.md)
