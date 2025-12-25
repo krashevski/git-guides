@@ -181,3 +181,4 @@ feature/fix-bug       ← Другая feature-ветка
 
 - Удаление с веток на GitHub [README_GIT_BRANCHES_DELETE_RU.md](README_GIT_BRANCHES_DELETE_RU.md)
 - Шпаргалка: безопасный rebase README [README_GIT_REBASE_RU.md](README_GIT_REBASE_RU.md)
+- Руководящие принципы по управлению репозиторием [REPOSITORY_STANDARDS_RU.md](README_REPOSITORY_STANDARDS_RU.md)
