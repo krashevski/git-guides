@@ -31,7 +31,7 @@ Resources include instructions, examples, templates, and step-by-step tutorials.
 - `step-by-step-git-tutorial.md` — a mini-course for beginners, starting with installing Git and working with GitHub.
 
 ### 4️⃣ templates/ — Ready-made project templates
-- `README_TEMPLATE.md` *(planned)* — a README template for new projects.
+- [README_TEMPLATE.md](templates/README_TEMPLATE.md) — a README template for new projects.
 - `ISSUE_TEMPLATE.md` *(planned)* — a template for creating issues.
 - `PULL_REQUEST_TEMPLATE.md` *(planned)* — a template for pull requests.
 
