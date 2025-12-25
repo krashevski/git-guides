@@ -1,10 +1,10 @@
-# 🌿 Cheat Sheet: Safe Rebase README
+# 🌿 Cheat sheet: safe upgrades via кebase
 
 [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 [🇬🇧 English](README_GIT_REBASE_EN.md) | [🇷🇺 Русский](../RU/README_GIT_REBASE_RU.md)
 
-A short and safe sequence of steps for completing a rebase and publishing a README
+A short and safe sequence of steps to complete an upgrades via rebase and publishing
 
 ## Preparation
 
