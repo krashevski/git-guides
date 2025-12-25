@@ -230,3 +230,7 @@ ls -lh ~/backup-repository.tar.gz
   - Use `sudo -l` to find out which commands your account can execute with root privileges.
   
 > [!] If your password is compromised, it makes sense to back up the system or user profile only for the cleaned system.
+
+## See also
+
+- Repository Management Guidelines [REPOSITORY_STANDARDS_EN.md](README_REPOSITORY_STANDARDS_EN.md)

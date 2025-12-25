@@ -229,3 +229,7 @@ ls -lh ~/backup-repository.tar.gz
   - Используйте `sudo -l`, чтобы узнать, какие команды ваша учётная запись может выполнять с root-правами.
   
 > [!] При компроментации пароля резервную копию системы или профиля пользователя исмеет смысл создавать только для очищенной системы.
+
+## Смотри также
+
+- Repository Management Guidelines [REPOSITORY_STANDARDS_EN.md](README_REPOSITORY_STANDARDS_EN.md)
