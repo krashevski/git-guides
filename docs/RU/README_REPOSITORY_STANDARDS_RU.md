@@ -56,6 +56,11 @@ backup/<дата или имя задачи>
 backup/2025-12-10-pre-refactor
 ```
 
+### Смотри также
+- Работа с ветками Git и GitHub [README_GIT_BRANCHES_RU.md](README_GIT_BRANCHES_RU.md)
+
+### Смотри также
+
 ## 2. Правила коммитов
 
 ### 2.1 Формат сообщения коммита
@@ -166,5 +171,6 @@ git push origin v1.2.0
 
 ## Смотри также
 
+- Работа с ветками Git и GitHub [README_GIT_BRANCHES_RU.md](README_GIT_BRANCHES_RU.md)
 - Соглашение о правилах коммит сообщений [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_RU.md)
 - Шпаргалка: безопасное обновление через rebase [README_GIT_REBASE_RU.md](README_GIT_REBASE_RU.md)

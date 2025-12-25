@@ -53,6 +53,9 @@ Example:
 backup/2025-12-10-pre-refactor
 ```
 
+### See also
+- Working with Git and GitHub Branches [README_GIT_BRANCHES_EN.md](README_GIT_BRANCHES_EN.md)
+
 ## 2. Commit rules
 
 ### 2.1 Commit message format
@@ -163,5 +166,6 @@ This standard ensures:
 
 ## See also
 
+- Working with Git and GitHub Branches [README_GIT_BRANCHES_EN.md](README_GIT_BRANCHES_EN.md)
 - Commit Message Convention [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_EN.md)
 - Cheat sheet: safe upgrades via кebase [README_GIT_REBASE_EN.md](README_GIT_REBASE_EN.md)
