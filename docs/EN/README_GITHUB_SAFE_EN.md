@@ -81,6 +81,13 @@ wodim -v dev=/dev/sr0 -data git-recovery-codes.txt
 
 4. Make sure the DVD is stored securely and access is restricted.
 
+5. The same password is required for decryption.
+```bash
+gpg -d github-recovery-codes.txt.gpg
+```
+
+If the password is lost, ❌ it cannot be recovered (this is normal and correct).
+
 ## 4. Check GnuPG directories
 
 ```bash
