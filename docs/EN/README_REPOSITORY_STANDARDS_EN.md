@@ -135,9 +135,9 @@ MAJOR.MINOR.PATCH
 ```
 
 Examples:
-1.0.0 — first stable release
-1.1.0 — new feature
-1.1.1 — bug fix
+- 1.0.0 — first stable release
+- 1.1.0 — new feature
+- 1.1.1 — bug fix
 
 ### 4.2 Creating a Release
 1. The code in main must be fully tested.
