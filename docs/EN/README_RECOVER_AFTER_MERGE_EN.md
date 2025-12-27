@@ -122,4 +122,4 @@ git diff main..feature
 
 ## See also
 
-- Repository Management Guidelines [README_REPOSITORY_STANDARDS_EN.md](README_REPOSITORY_STANDARDS_EN.md)
+- Repository management guidelines [README_REPOSITORY_STANDARDS_EN.md](README_REPOSITORY_STANDARDS_EN.md)
