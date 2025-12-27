@@ -122,6 +122,7 @@ git checkout main
 git pull
 git branch -d feature/xxx
 git push origin --delete feature/xxx
+```
 
 ### See also
 - Recovering Files after a Failed Git Merge [README_RECOVER_AFTER_MERGE_EN.md](README_RECOVER_AFTER_MERGE_EN.md)
