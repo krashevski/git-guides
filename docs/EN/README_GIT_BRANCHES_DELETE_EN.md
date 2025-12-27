@@ -95,3 +95,4 @@ Settings → General → Pull Requests → Automatically delete head branches
 ## See also
 
 - Working with Git and GitHub Branches [README_GIT_BRANCHES_EN.md](README_GIT_BRANCHES_EN.md)
+- Repository Management Guidelines [REPOSITORY_STANDARDS_EN.md](README_REPOSITORY_STANDARDS_EN.md)

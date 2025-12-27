@@ -172,6 +172,7 @@ This standard ensures:
 ## See also
 
 - Working with Git and GitHub branches [README_GIT_BRANCHES_EN.md](README_GIT_BRANCHES_EN.md)
+- Deleting from GitHub Branches [README_GIT_BRANCHES_DELETE_EN.md](README_GIT_BRANCHES_DELETE_EN.md)
 - Cheat sheet: safe upgrades via кebase [README_GIT_REBASE_EN.md](README_GIT_REBASE_EN.md)
 - Commit message convention [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_EN.md)
 - Recovering files after a failed Git merge [README_RECOVER_AFTER_MERGE_EN.md](README_RECOVER_AFTER_MERGE_EN.md)
