@@ -38,6 +38,7 @@ Resources include instructions, examples, templates, and step-by-step tutorials.
 
 ### 4️⃣ templates/ — Ready-made project templates
 - [README_TEMPLATE.md](templates/README_TEMPLATE.md) — a README template for new projects.
+- [CHANGELOG_TEMPLATE.md](templates/CHANGELOG_TEMPLATE.md) - a template for Changelog.
 - `ISSUE_TEMPLATE.md` *(planned)* — a template for creating issues.
 - `PULL_REQUEST_TEMPLATE.md` *(planned)* — a template for pull requests.
 
