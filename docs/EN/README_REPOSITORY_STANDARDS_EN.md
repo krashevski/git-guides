@@ -157,6 +157,9 @@ git push origin v1.2.0
 
 Changes must be tested on the local machine before being pushed to main.
 
+### See also
+- Testing before merging to main [README_GIT_TESTING_EN.md](README_GIT_TESTING_EN.md)
+
 ## 6. OpenSource code style
 
 The code should be human-readable, contain clear variable names, a neat format, and include comments where necessary.
@@ -176,4 +179,5 @@ This standard ensures:
 - Cheat sheet: safe upgrades via кebase [README_GIT_REBASE_EN.md](README_GIT_REBASE_EN.md)
 - Commit message convention [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_EN.md)
 - Recovering files after a failed Git merge [README_RECOVER_AFTER_MERGE_EN.md](README_RECOVER_AFTER_MERGE_EN.md)
+- Testing before merging to main [README_GIT_TESTING_EN.md](README_GIT_TESTING_EN.md)
 - Working safely with GitHub [README_GITHUB_SAFE_EN.md](README_GITHUB_SAFE_EN.md)

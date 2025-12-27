@@ -162,6 +162,9 @@ git push origin v1.2.0
 
 Изменения должны быть протестированы на локальном компьютере перед отправкой в ​​основную ветку.
 
+### Смотри также
+- Тестирование прежде merge в main [README_GIT_TESTING_RU.md](README_GIT_TESTING_RU.md)
+
 ## 6. Стиль кода с открытым исходным кодом
 Код должен быть удобочитаемым, содержать четкие имена переменных, аккуратный формат и включать комментарии там, где это необходимо.
 
@@ -180,4 +183,5 @@ git push origin v1.2.0
 - Шпаргалка: безопасное обновление через rebase [README_GIT_REBASE_RU.md](README_GIT_REBASE_RU.md)
 - Соглашение о правилах коммит сообщений [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_RU.md)
 - Восстановление файлов после неудачного git merge [README_RECOVER_AFTER_MERGE_RU.md](README_RECOVER_AFTER_MERGE_RU.md)
+- Тестирование прежде merge в main [README_GIT_TESTING_RU.md](README_GIT_TESTING_RU.md)
 - Безопасная работа с GitHub [README_GITHUB_SAFE_RU.md](README_GITHUB_SAFE_RU.md)
