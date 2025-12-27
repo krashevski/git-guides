@@ -1,4 +1,4 @@
-# 📘 Repository management guidelines (Standardization)
+# 📘 Repository management guidelines (standardization)
 
 [🇬🇧 English](README_REPOSITORY_STANDARDS_EN.md) | [🇷🇺 Русский](../RU/README_REPOSITORY_STANDARDS_RU.md)
 
