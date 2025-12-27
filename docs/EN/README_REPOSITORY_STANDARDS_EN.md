@@ -127,7 +127,7 @@ git push origin --delete feature/xxx
 ### See also
 - Recovering files after a failed git merge [README_RECOVER_AFTER_MERGE_EN.md](README_RECOVER_AFTER_MERGE_EN.md)
 
-## 4. The Release process
+## 4. Release process
 
 ### 4.1 Version numbering
 The SemVer scheme is used:
@@ -140,7 +140,7 @@ Examples:
 - 1.1.0 — new feature
 - 1.1.1 — bug fix
 
-### 4.2 Creating a Release
+### 4.2 Creating a release
 1. The code in main must be fully tested.
 2. A changelog is compiled.
 3. Create a git tag:
