@@ -29,7 +29,7 @@
 
 ### 4️⃣ templates/ — Готовые шаблоны для проектов
 - [README_TEMPLATE_RU.md](../../templates/README_TEMPLATE_RU.md) — шаблон README для новых проектов. 
-- [CHANGELOG_TEMPLATE.md](templates/CHANGELOG_TEMPLATE.md) - шаблон для Changelog. 
+- [CHANGELOG_TEMPLATE.md](../../templates/CHANGELOG_TEMPLATE.md) - шаблон для Changelog. 
 - `ISSUE_TEMPLATE.md` — шаблон для создания issues.  
 - `PULL_REQUEST_TEMPLATE.md` — шаблон для pull request.  
 
