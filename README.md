@@ -24,7 +24,7 @@ Resources include instructions, examples, templates, and step-by-step tutorials.
 
 ## 📂 Repository structure
 
-### 1️⃣ docs/ — Basic Instructions and Standards
+### 1️⃣ docs/ — Basic instructions and standards
 - [REPOSITORY_STANDARDS_EN.md](docs/EN/README_REPOSITORY_STANDARDS_EN.md) — Repository working standards.
 - [BRANCHING_STRATEGY_EN.md](docs/EN/BRANCHING_STRATEGY_EN.md) *(planned)* — Branching guidelines.
 - [COMMIT_GUIDELINES_EN.md](docs/EN/README_GIT_COMMIT_GUIDELINES_EN.md) — Commit writing rules.
