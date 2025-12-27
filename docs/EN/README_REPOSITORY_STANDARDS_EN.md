@@ -1,4 +1,4 @@
-# 📘 Repository Management Guidelines (Standardization) — Reincarnation Backup Kit
+# 📘 Repository management guidelines (Standardization)
 
 [🇬🇧 English](README_REPOSITORY_STANDARDS_EN.md) | [🇷🇺 Русский](../RU/README_REPOSITORY_STANDARDS_RU.md)
 
@@ -54,7 +54,7 @@ backup/2025-12-10-pre-refactor
 ```
 
 ### See also
-- Working with Git and GitHub Branches [README_GIT_BRANCHES_EN.md](README_GIT_BRANCHES_EN.md)
+- Working with Git and GitHub branches [README_GIT_BRANCHES_EN.md](README_GIT_BRANCHES_EN.md)
 - Cheat sheet: safe upgrades via кebase [README_GIT_REBASE_EN.md](README_GIT_REBASE_EN.md)
 
 ## 2. Commit rules
@@ -88,7 +88,7 @@ refactor: split messages.sh into modules
 2. Large changes should be grouped into a single logical commit to keep history clean and readable.
 
 ### See also
-- Commit Message Convention [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_EN.md)
+- Commit message convention [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_EN.md)
 
 ## 3. Merging rules
 
@@ -125,7 +125,7 @@ git push origin --delete feature/xxx
 ```
 
 ### See also
-- Recovering Files after a Failed Git Merge [README_RECOVER_AFTER_MERGE_EN.md](README_RECOVER_AFTER_MERGE_EN.md)
+- Recovering files after a failed git merge [README_RECOVER_AFTER_MERGE_EN.md](README_RECOVER_AFTER_MERGE_EN.md)
 
 ## 4. The Release process
 
@@ -171,8 +171,8 @@ This standard ensures:
 
 ## See also
 
-- Working with Git and GitHub Branches [README_GIT_BRANCHES_EN.md](README_GIT_BRANCHES_EN.md)
+- Working with Git and GitHub branches [README_GIT_BRANCHES_EN.md](README_GIT_BRANCHES_EN.md)
 - Cheat sheet: safe upgrades via кebase [README_GIT_REBASE_EN.md](README_GIT_REBASE_EN.md)
-- Commit Message Convention [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_EN.md)
-- Recovering Files after a Failed Git Merge [README_RECOVER_AFTER_MERGE_EN.md](README_RECOVER_AFTER_MERGE_EN.md)
-- Working Safely with GitHub [README_GITHUB_SAFE_EN.md](README_GITHUB_SAFE_EN.md)
+- Commit message convention [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_EN.md)
+- Recovering files after a failed Git merge [README_RECOVER_AFTER_MERGE_EN.md](README_RECOVER_AFTER_MERGE_EN.md)
+- Working safely with GitHub [README_GITHUB_SAFE_EN.md](README_GITHUB_SAFE_EN.md)
