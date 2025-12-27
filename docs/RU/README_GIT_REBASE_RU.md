@@ -99,7 +99,7 @@ git push --force-with-lease origin feature/i18n-updates
 - Для текстовых файлов (README, docs) проще вручную объединять версии при конфликте.
 - Используйте одинаковый стиль коммитов и сообщений, чтобы легко ориентироваться.
 
-## См. также
+## Смотри также
 
 - Файл README для работы с ветками Git и GitHub [README_GIT_BRANCHES_RU.md](README_GIT_BRANCHES_RU.md)
 - Руководящие принципы по управлению репозиторием [README_REPOSITORY_STANDARDS_RU.md](README_REPOSITORY_STANDARDS_RU.md)

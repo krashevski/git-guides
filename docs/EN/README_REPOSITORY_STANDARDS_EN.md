@@ -123,6 +123,9 @@ git pull
 git branch -d feature/xxx
 git push origin --delete feature/xxx
 
+### See also
+- Recovering Files after a Failed Git Merge [README_RECOVER_AFTER_MERGE_EN.md](README_RECOVER_AFTER_MERGE_EN.md)
+
 ## 4. The Release process
 
 ### 4.1 Version numbering
@@ -168,6 +171,7 @@ This standard ensures:
 ## See also
 
 - Working with Git and GitHub Branches [README_GIT_BRANCHES_EN.md](README_GIT_BRANCHES_EN.md)
-- Commit Message Convention [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_EN.md)
 - Cheat sheet: safe upgrades via кebase [README_GIT_REBASE_EN.md](README_GIT_REBASE_EN.md)
+- Commit Message Convention [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_EN.md)
+- Recovering Files after a Failed Git Merge [README_RECOVER_AFTER_MERGE_EN.md](README_RECOVER_AFTER_MERGE_EN.md)
 - Working Safely with GitHub [README_GITHUB_SAFE_EN.md](README_GITHUB_SAFE_EN.md)

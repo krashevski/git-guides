@@ -129,6 +129,9 @@ git branch -d feature/xxx
 git push origin --delete feature/xxx
 ```
 
+### Смотри также
+- Восстановление файлов после неудачного git merge [README_RECOVER_AFTER_MERGE_RU.md](README_RECOVER_AFTER_MERGE_RU.md)
+
 ## 4. Процесс выпуска
 
 ### 4.1 Нумерация версий
@@ -173,6 +176,7 @@ git push origin v1.2.0
 ## Смотри также
 
 - Работа с ветками Git и GitHub [README_GIT_BRANCHES_RU.md](README_GIT_BRANCHES_RU.md)
-- Соглашение о правилах коммит сообщений [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_RU.md)
 - Шпаргалка: безопасное обновление через rebase [README_GIT_REBASE_RU.md](README_GIT_REBASE_RU.md)
+- Соглашение о правилах коммит сообщений [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_RU.md)
+- Восстановление файлов после неудачного git merge [README_RECOVER_AFTER_MERGE_RU.md](README_RECOVER_AFTER_MERGE_RU.md)
 - Безопасная работа с GitHub [README_GITHUB_SAFE_RU.md](README_GITHUB_SAFE_RU.md)
