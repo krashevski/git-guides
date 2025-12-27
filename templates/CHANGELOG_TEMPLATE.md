@@ -1,6 +1,6 @@
 # Changelog — Reincarnation Backup Kit
 
-Все изменения следуют [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) и проект использует [Semantic Versioning](https://semver.org/).
+All changes follow [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and project uses [Semantic Versioning](https://semver.org/).
 
 ## [1.0.0] - 2025-12-18
 ### Added
