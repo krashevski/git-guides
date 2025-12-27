@@ -1,4 +1,4 @@
-# 🔒 Working Safely with GitHub
+# 🔒 Working safely with GitHub
 
 [🇬🇧 English](README_GITHUB_SAFE_EN.md) | [🇷🇺 Русский](../RU/README_GITHUB_SAFE_RU.md)
 
@@ -55,9 +55,9 @@ chmod 600 ~/.git-credentials
 
 > [i] In this case, the token will be stored locally, protected by user permissions.
 
-## 3. Securely Backup git-recovery-codes
+## 3. Securely backup git-recovery-codes
 
-1. Download Recovery Codes from GitHub (to restore two-factor authentication).
+1. Download recovery codes from GitHub (to restore two-factor authentication).
 2. Encrypt (AES-256) the git-recovery-codes.txt file:
 ```bash
 ls -l git-recovery-codes.txt
@@ -104,7 +104,7 @@ chmod 700 ~/.gnupg
 chmod 600 ~/.gnupg/*
 ```
 
-## 5. Changing the SSH Key Passphrase
+## 5. Changing the SSH key passphrase
 
 * Run:
 ```bash
@@ -147,7 +147,7 @@ ssh-add ~/.ssh/id_ed25519
 ssh-add -l
 ```
 
-## 6. Working with Branches
+## 6. Working with branches
 
 * View all local and remote branches:
 ```bash
@@ -172,7 +172,7 @@ git restore .
 git branch -d feature/name
 ```
 
-## 7. Pushing and Security
+## 7. Pushing and security
 
 * Before pushing, ensure the branch is up-to-date:
 ```bash
@@ -191,21 +191,21 @@ git push origin main
 git push --force-with-lease
 ```
 
-## 8. Checking Changes and Integrity
+## 8. Checking changes and integrity
 
-- Checking Commit Hashes:
+- Checking commit hashes:
 ```bash
 git log --oneline --graph --decorate
 ```
 
-- Checking Local Integrity:
+- Checking local integrity:
 ```bash
 git fsck
 ```
 
-## 9. Backing Up Local Repositories
+## 9. Backing up local repositories
 
-* Creating a Local Archive
+* Creating a local archive
 ```bash
 tar -czf ~/backup-repository.tar.gz repository/
 ```
@@ -223,7 +223,7 @@ ls -lh ~/backup-repository.tar.gz
 * Enable two-factor authentication.
 * Scan directories and logs before deleting.
 
-## 11. 🔑 Operating System Password
+## 11. 🔑 Operating system password
 
 * Use a strong user password for your Linux account.
 * The password must be unique, sufficiently long, more than 10 characters, and randomly complex.
@@ -240,4 +240,4 @@ ls -lh ~/backup-repository.tar.gz
 
 ## See also
 
-- Repository Management Guidelines [REPOSITORY_STANDARDS_EN.md](README_REPOSITORY_STANDARDS_EN.md)
+- Repository management guidelines [REPOSITORY_STANDARDS_EN.md](README_REPOSITORY_STANDARDS_EN.md)
