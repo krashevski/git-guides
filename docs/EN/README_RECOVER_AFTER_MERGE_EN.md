@@ -11,7 +11,7 @@ This document describes a safe and reproducible procedure for recovering files a
 3. Avoid --force and history rewriting.
 4. Explicitly commit the recovery.
 
-## 🧠 Key Principle
+## 🧠 Key principle
 
 > [!] Branches are considered synchronized only through commits, not through the working tree.
 Commands like:
@@ -21,7 +21,7 @@ git checkout <commit> -- <file>
 
 **do not change history**, only the state of the files. Changes become part of the branch **only after a git commit**.
 
-## 🟢 Scenario 1: The merge hasn't been committed yet
+## 🟢 Scenario 1: Merge hasn't been committed yet
 
 Check:
 ```bash
@@ -41,7 +41,7 @@ git merge --abort
 
 ✔ The working tree and branch are returned to their pre-merge state.
 
-## 🟡 Scenario 2: The merge is already committed, but files are lost
+## 🟡 Scenario 2: Merge is already committed, but files are lost
 
 ### 1️⃣ Find the commit with the correct version of the files
 ```bash
