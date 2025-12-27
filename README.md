@@ -1,5 +1,11 @@
 # Git Guides — Mini-Course on working with Git and GitHub
 
+[![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+![Type](https://img.shields.io/badge/type-documentation-blue)
+![Language](https://img.shields.io/badge/language-Markdown-informational)
+![Stars](https://img.shields.io/github/stars/krashevski/git-guides)
+![Last commit](https://img.shields.io/github/last-commit/krashevski/git-guides)
+
 [🇬🇧 English](README.md) | [🇷🇺 Русский](docs/RU/README_GIT_WORKING_RU.md)
 
 📚 This repository is designed for beginner developers and anyone who wants to learn the basics of Git and GitHub, as well as how to maintain repositories according to standards.
