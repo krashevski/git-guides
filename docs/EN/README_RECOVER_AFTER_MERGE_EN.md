@@ -1,4 +1,4 @@
-# 📘 Recovering Files after a Failed Git Merge
+# 📘 Recovering files after a failed git merge
 
 [🇬🇧 English](README_RECOVER_AFTER_MERGE_EN.md) | [🇷🇺 Русский](../RU/README_RECOVER_AFTER_MERGE_RU.md)
 
