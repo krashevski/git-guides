@@ -75,10 +75,10 @@ git branch -r
 
 ## 🧼 6. Verification checklist
 
-✔ main — remains
-✔ unnecessary feature/* branches are gone
-✔ git branch -a looks clean
-✔ GitHub → Branches — tidy
+- main — remains
+- unnecessary feature/* branches are gone
+- git branch -a looks clean
+- GitHub → Branches — tidy
 
 ## 🧠 Recommended policy for the future
 
