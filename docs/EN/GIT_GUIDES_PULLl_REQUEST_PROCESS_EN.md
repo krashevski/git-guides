@@ -141,3 +141,6 @@ git push origin --delete feature/short-description
 
 Happy hacking 🚀
 
+## See also
+
+- Mini-Course on working with Git and GitHub [README.md](README.md)
