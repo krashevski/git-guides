@@ -19,7 +19,7 @@
 - [REPOSITORY_STANDARDS_RU.md](README_REPOSITORY_STANDARDS_RU.md) — стандарты работы с репозиторием.  
 - [BRANCHING_STRATEGY.md](docs/RU/BRANCHING_STRATEGY_RU.md) *(planned)* — рекомендации по ветвлению.  
 - [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_RU.md) — правила написания коммитов.  
-- [PULL_REQUEST_PROCESS.md](docs/RU/PULL_REQUEST_PROCESS_RU.md) *(planned)* — процесс работы с pull request.  
+- [PULL_REQUEST_PROCESS.md](docs/RU/GIT_GUIDES_PULLl_REQUEST_PROCESS_RU.md) — процесс работы с pull request.  
 
 ### 2️⃣ examples/ — Примеры практического применения
 - Примеры работы с ветками, коммитами, разрешением конфликтов.

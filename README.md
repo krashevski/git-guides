@@ -28,7 +28,7 @@ Resources include instructions, examples, templates, and step-by-step tutorials.
 - [REPOSITORY_STANDARDS_EN.md](docs/EN/README_REPOSITORY_STANDARDS_EN.md) — Repository working standards.
 - [BRANCHING_STRATEGY_EN.md](docs/EN/BRANCHING_STRATEGY_EN.md) *(planned)* — Branching guidelines.
 - [COMMIT_GUIDELINES_EN.md](docs/EN/README_GIT_COMMIT_GUIDELINES_EN.md) — Commit writing rules.
-- [PULL_REQUEST_PROCESS_EN.md](docs/EN/PULL_REQUEST_PROCESS_EN.md) *(planned)* — Pull request process.
+- [PULL_REQUEST_PROCESS_EN.md](docs/EN/GIT_GUIDES_PULLl_REQUEST_PROCESS_EN.md) — Pull request process.
 
 ### 2️⃣ examples/ — Practical examples
 - Examples of working with branches, commits, and conflict resolution.
