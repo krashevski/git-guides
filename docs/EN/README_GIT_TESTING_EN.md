@@ -130,3 +130,4 @@ git push origin main
 
 - Working safely with GitHub [README_GITHUB_SAFE_EN.md](README_GITHUB_SAFE_EN.md)
 - Repository Management Guidelines [README_REPOSITORY_STANDARDS_EN.md](README_REPOSITORY_STANDARDS_EN.md)
+- Pull Request Process [GIT_GUIDES_PULLl_REQUEST_PROCESS_EN.md](GIT_GUIDES_PULLl_REQUEST_PROCESS_EN.md)

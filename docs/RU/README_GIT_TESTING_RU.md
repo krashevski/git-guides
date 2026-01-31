@@ -130,3 +130,4 @@ git push origin main
 
 - Безопасная работа с GitHub [README_GITHUB_SAFE_RU.md](README_GITHUB_SAFE_RU.md)
 - Руководящие принципы по управлению репозиторием [README_REPOSITORY_STANDARDS_RU.md](README_REPOSITORY_STANDARDS_RU.md)
+- Процесс создания запроса на слияние (Pull Request) [GIT_GUIDES_PULLl_REQUEST_PROCESS_RU.md](GIT_GUIDES_PULLl_REQUEST_PROCESS_RU.md)
