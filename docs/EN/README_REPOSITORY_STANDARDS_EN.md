@@ -153,6 +153,9 @@ git tag -a v1.2.0 -m "Release 1.2.0"
 git push origin v1.2.0
 ```
 
+### See also
+- Stable Release [README_GIT_RELEASE_STABLE_RU.md](README_GIT_RELEASE_STABLE_RU.md)
+
 ## 5. Testing requirements before publishing
 
 Changes must be tested on the local machine before being pushed to main.
@@ -179,5 +182,6 @@ This standard ensures:
 - Cheat sheet: safe upgrades via кebase [README_GIT_REBASE_EN.md](README_GIT_REBASE_EN.md)
 - Commit message convention [COMMIT_GUIDELINES.md](README_GIT_COMMIT_GUIDELINES_EN.md)
 - Recovering files after a failed Git merge [README_RECOVER_AFTER_MERGE_EN.md](README_RECOVER_AFTER_MERGE_EN.md)
+- Stable Release [README_GIT_RELEASE_STABLE_RU.md](README_GIT_RELEASE_STABLE_RU.md)
 - Testing before merging to main [README_GIT_TESTING_EN.md](README_GIT_TESTING_EN.md)
 - Working safely with GitHub [README_GITHUB_SAFE_EN.md](README_GITHUB_SAFE_EN.md)
