@@ -239,4 +239,5 @@ ls -lh ~/backup-repository.tar.gz
 
 ## Смотри также
 
+- [Git-Brandmauer — безопасная работа с GitHub](https://github.com/krashevski/git-brandmauer/blob/main/docs/RU/README_RU.md)
 - Руководящие принципы по управлению репозиторием [REPOSITORY_STANDARDS_RU.md](README_REPOSITORY_STANDARDS_RU.md)

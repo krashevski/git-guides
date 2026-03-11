@@ -240,4 +240,5 @@ ls -lh ~/backup-repository.tar.gz
 
 ## See also
 
+- [Git-Brandmauer — GitHub](https://github.com/krashevski/git-brandmauer/blob/main/README.md)
 - Repository management guidelines [REPOSITORY_STANDARDS_EN.md](README_REPOSITORY_STANDARDS_EN.md)
