@@ -1,4 +1,4 @@
-# Releasing a stable version (release)
+# Releasing a stable version
 
 [🇬🇧 English](README_GIT_RELEASE_STABLE_EN.md) | [🇷🇺 Русский](../RU/README_GIT_RELEASE_STABLE_RU.md)
 
@@ -32,7 +32,7 @@ git checkout -b release/stable
 * This is useful if you're making bug fixes before releasing.
 * Once the changes are prepared, the branch can be merged into `main`.
 
-## 3️⃣ Updating the Version
+## 3️⃣ Updating the version
 
 1. Change the version file (e.g. VERSION or package.json) to the desired version:
 ```text
@@ -47,7 +47,7 @@ git commit -m "Bump version to 1.2.3 for stable release"
 
 [I] If there is no VERSION script, then you can save the change history in the CHANGELOG.md script
 
-## 4️⃣ Tagging the Stable Version
+## 4️⃣ Tagging the stable version
 
 Git typically uses annotated tags for releases:
 ```bash
@@ -71,7 +71,7 @@ git push origin stable # push the stable tag
 
 The `stable` tag is now available on GitHub/GitLab.
 
-## 6️⃣ Checking on a Remote Repository
+## 6️⃣ Checking on a remote repository
 
 1. List all tags:
 ```bash
@@ -84,7 +84,7 @@ git tag -l
 git log stable
 ```
 
-## 7️⃣ Maintenance and Hotfixes
+## 7️⃣ Maintenance and hotfixes
 
 If bugs are discovered after a release:
 1. Create a branch for the hotfix:
@@ -102,7 +102,7 @@ git push origin stable --force
 
 [!] ⚠️ Use --force Carefully, so as not to break other team members' local copies.
 
-## Process Summary
+## Process summary
 
 1. Preparation and Tests → main
 2. (Optional) Create a release branch
