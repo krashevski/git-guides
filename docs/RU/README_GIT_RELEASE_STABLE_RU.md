@@ -93,7 +93,7 @@ git checkout -b hotfix/fix-typo stable
 ```
 
 2. Внесите исправления, закоммитьте, обновите тег или создайте новый:
-````bash
+```bash
 git commit -am "Fix typo in guides"
 git tag -f stable  # перезаписываем тег stable на исправленную версию
 git push origin hotfix/fix-typo
