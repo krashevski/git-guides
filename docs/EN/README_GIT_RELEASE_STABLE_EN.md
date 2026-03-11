@@ -45,6 +45,8 @@ git add VERSION
 git commit -m "Bump version to 1.2.3 for stable release"
 ```
 
+[I] If there is no VERSION script, then you can save the change history in the CHANGELOG.md script
+
 ## 4️⃣ Tagging the Stable Version
 
 Git typically uses annotated tags for releases:
@@ -100,7 +102,7 @@ git push origin stable --force
 
 [!] ⚠️ Use --force Carefully, so as not to break other team members' local copies.
 
-## 🔹 Process Summary
+## Process Summary
 
 1. Preparation and Tests → main
 2. (Optional) Create a release branch

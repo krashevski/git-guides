@@ -45,6 +45,8 @@ git add VERSION
 git commit -m "Bump version to 1.2.3 for stable release"
 ```
 
+[I] Если нет скрипта VERSION, то можно сохранять историю изменений в скрипте CHANGELOG.md
+
 ## 4️⃣ Тегирование стабильной версии
 
 В Git принято использовать аннотированные теги для релизов:
@@ -52,8 +54,8 @@ git commit -m "Bump version to 1.2.3 for stable release"
 git tag -a stable -m "Stable release for git-guides"
 ```
 
-> [i] Если хотите, можно также поставить конкретную версию:
-> [i] git tag -a v1.2.3 -m "Release v1.2.3 stable"
+> [I] Если хотите, можно также поставить конкретную версию:
+> [I] git tag -a v1.2.3 -m "Release v1.2.3 stable"
 
 Проверить тег:
 ```bash
@@ -100,7 +102,7 @@ git push origin stable --force
 
 [!] ⚠️ Использовать --force аккуратно, чтобы не ломать локальные копии других участников команды.
 
-## 🔹 Итог процесса
+## Итог процесса
 
 1. Подготовка и тесты → main
 2. (Опционально) Создание release branch
