@@ -185,3 +185,4 @@ This standard ensures:
 - Stable Release [README_GIT_RELEASE_STABLE_EN.md](README_GIT_RELEASE_STABLE_EN.md)
 - Testing before merging to main [README_GIT_TESTING_EN.md](README_GIT_TESTING_EN.md)
 - Working safely with GitHub [README_GITHUB_SAFE_EN.md](README_GITHUB_SAFE_EN.md)
+- [Git-Brandmauer — GitHub](https://github.com/krashevski/git-brandmauer/blob/main/README.md)

@@ -189,3 +189,4 @@ git push origin v1.2.0
 - Выпуск стабильной версии (release) [README_GIT_RELEASE_STABLE_RU.md](README_GIT_RELEASE_STABLE_RU.md)
 - Тестирование прежде merge в main [README_GIT_TESTING_RU.md](README_GIT_TESTING_RU.md)
 - Безопасная работа с GitHub [README_GITHUB_SAFE_RU.md](README_GITHUB_SAFE_RU.md)
+- [Git-Brandmauer — безопасная работа с GitHub](https://github.com/krashevski/git-brandmauer/blob/main/docs/RU/README_RU.md)
