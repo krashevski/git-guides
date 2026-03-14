@@ -34,13 +34,13 @@ git checkout -b feature/название
 export GIT_TOKEN="ваш_токен_сюда"
 ```
 Рекомендации:
-- Никогда не храните токен в репозитории (.env, .bashrc, README и т.п.).
+- Никогда не храните Git токен в репозитории (.env, .bashrc, README и т.п.).
 - После окончания работы удалите переменную:
 ```bash
 unset GIT_TOKEN
 ```
 
-### Никогда не сохраняйте токен в репозитории:
+### Никогда не сохраняйте Git токен в репозитории:
 ```bash
 # ❌ НЕ делать
 echo "GIT_TOKEN=..." >> .env
@@ -52,9 +52,88 @@ git config --global credential.helper store
 chmod 600 ~/.git-credentials
 ```
 
-> [i] В этом случае токен будет храниться локально, защищённый правами пользователя.
+> [i] В этом случае Git токен будет храниться локально, защищённый правами пользователя.
 
-## 3. Безопасное резервное копирование git-recovery-codes
+## 3. Обновление Git токена с удалением
+
+### Создать новый токен в GitHub
+1. Откройте настройки:
+```bash
+https://github.com/settings/tokens
+```
+
+2. Перейдите:
+Settings → Developer settings → Personal access tokens.
+
+3. Нажмите:
+Generate new token (или Regenerate token для существующего).
+
+4. Укажите:
+- срок действия (Expiration)
+- необходимые права (например repo, workflow и т.д.)
+- Нажмите Generate token.
+- Скопируйте токен — GitHub покажет его только один раз.
+
+### Способ 1 — удалить credential для GitHub (правильно)
+Выполните:
+```bash 
+printf "protocol=https\nhost=github.com\n" | git credential reject
+```
+
+Это удалит сохранённый токен для github.com.
+После этого при следующей команде:
+```bash
+git push
+```
+
+Git снова спросит:
+```bash
+Username:
+Password:
+```
+
+В `Password:` вставьте скопированный новый Git токен.
+
+### Способ 2 — если используется credential store
+Посмотрите helper:
+```bash
+git config --global credential.helper
+```
+
+Если там:
+```bash
+store
+```
+
+тогда Git токен хранится в файле:
+```bash
+~/.git-credentials
+```
+
+Можно удалить строку с GitHub:
+```bash
+nano ~/.git-credentials
+```
+
+или полностью удалить файл:
+```bash
+rm ~/.git-credentials
+```
+
+### Способ 3 — проверить remote (иногда причина здесь)
+Иногда Git токен прописан прямо в URL. Проверьте:
+```bash
+git remote -v
+```
+
+должно быть примерно:
+```bash
+https://github.com/username/repo.git
+```
+
+Если там есть Git токен — его нужно удалить.
+
+## 4. Безопасное резервное копирование git-recovery-codes
 
 1. Скачайте Recovery Codes с GitHub (для восстановления двухфакторной аутентификации).
 2. Зашифруйте (AES-256) файл git-recovery-codes.txt:
@@ -87,7 +166,7 @@ gpg -d github-recovery-codes.txt.gpg
 
 Если пароль утерян — ❌ восстановить невозможно (это нормально и правильно).
 
-## 4. Проверка каталогов GnuPG
+## 5. Проверка каталогов GnuPG
 
 ```bash
 # Проверка прав на ключи и конфигурацию
@@ -103,7 +182,7 @@ chmod 700 ~/.gnupg
 chmod 600 ~/.gnupg/*
 ```
 
-## 5. Смена секретной фразы (passphrase) для SSH ключа
+## 6. Смена секретной фразы (passphrase) для SSH ключа
 
 * Выполните:
 ```bash
@@ -146,7 +225,7 @@ ssh-add ~/.ssh/id_ed25519
 ssh-add -l
 ```
 
-## 6. Работа с ветками
+## 7. Работа с ветками
 
 * Просмотр всех локальных и удалённых веток:
 ```bash
@@ -171,7 +250,7 @@ git restore .
 git branch -d feature/название
 ```
 
-## 7. Push и безопасность
+## 8. Push и безопасность
 
 * Перед пушем убедитесь, что ветка актуальна:
 ```bash
@@ -190,7 +269,7 @@ git push origin main
 git push --force-with-lease
 ```
 
-## 8. Проверка изменений и целостности
+## 9. Проверка изменений и целостности
 
 - Проверка хешей коммитов:
 ```bash
@@ -202,7 +281,7 @@ git log --oneline --graph --decorate
 git fsck
 ```
 
-## 9. Резервные копии локальных репозиториев
+## 10. Резервные копии локальных репозиториев
 
 * Создание локального архива
 ```bash
@@ -214,7 +293,7 @@ tar -czf ~/backup-repository.tar.gz repository/
 ls -lh ~/backup-repository.tar.gz
 ```
 
-## 10. Советы
+## 11. Советы
 
 * Используйте отдельный аккаунт GitHub для тестов.
 * Не пушьте секретные данные.

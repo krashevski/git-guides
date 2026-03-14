@@ -33,15 +33,14 @@ git checkout -b feature/name
 ```bash
 export GIT_TOKEN="your_token_here"
 ```
-
 Recommendations:
-- Never store your token in the repository (.env, .bashrc, README, etc.).
+- Never store your Git token in a repository (.env, .bashrc, README, etc.).
 - When finished, delete the variable:
 ```bash
 unset GIT_TOKEN
 ```
 
-### Never save the token in the repository:
+### Never save the Git token in the repository:
 ```bash
 # ❌ DO NOT
 echo "GIT_TOKEN=..." >> .env
@@ -53,9 +52,88 @@ git config --global credential.helper store
 chmod 600 ~/.git-credentials
 ```
 
-> [i] In this case, the token will be stored locally, protected by user permissions.
+> [i] In this case, the Git token will be stored locally, protected by user permissions.
 
-## 3. Securely backup git-recovery-codes
+## 3. Renewing a Git token with deletion
+
+### Create a new token in GitHub
+1. Open settings:
+```bash
+https://github.com/settings/tokens
+```
+
+2. Go to:
+Settings → Developer settings → Personal access tokens.
+
+3. Click:
+Generate new token (or Regenerate token for an existing one).
+
+4. Specify:
+- Expiration period
+- Required permissions (e.g., repo, workflow, etc.)
+- Click Generate token.
+- Copy the token — GitHub will only show it once.
+
+### Method 1 — Delete the credential for GitHub (correctly)
+Run:
+```bash
+printf "protocol=https\nhost=github.com\n" | git credential reject
+```
+
+This will remove the saved token for github.com.
+After that, with the following command:
+```bash
+git push
+```
+
+Git will ask again:
+```bash
+Username:
+Password:
+```
+
+In `Password:`, paste the copied new Git token.
+
+### Method 2 — if a credential store is used
+Check the helper:
+```bash
+git config --global credential.helper
+```
+
+If there:
+```bash
+store
+```
+
+then the Git token is stored in the file:
+```bash
+~/.git-credentials
+```
+
+You can remove the line from GitHub:
+```bash
+nano ~/.git-credentials
+```
+
+or delete the file entirely:
+```bash
+rm ~/.git-credentials
+```
+
+### Method 3 — check the remote (sometimes this is the cause)
+Sometimes the Git token is hardcoded directly in the URL. Check:
+```bash
+git remote -v
+```
+
+Should be something like:
+```bash
+https://github.com/username/repo.git
+```
+
+If there's a Git token there, you need to remove it.
+
+## 4. Securely backup git-recovery-codes
 
 1. Download recovery codes from GitHub (to restore two-factor authentication).
 2. Encrypt (AES-256) the git-recovery-codes.txt file:
@@ -88,7 +166,7 @@ gpg -d github-recovery-codes.txt.gpg
 
 If the password is lost, ❌ it cannot be recovered (this is normal and correct).
 
-## 4. Check GnuPG directories
+## 5. Check GnuPG directories
 
 ```bash
 # Check permissions on keys and configuration
@@ -104,7 +182,7 @@ chmod 700 ~/.gnupg
 chmod 600 ~/.gnupg/*
 ```
 
-## 5. Changing the SSH key passphrase
+## 6. Changing the SSH key passphrase
 
 * Run:
 ```bash
@@ -147,7 +225,7 @@ ssh-add ~/.ssh/id_ed25519
 ssh-add -l
 ```
 
-## 6. Working with branches
+## 7. Working with branches
 
 * View all local and remote branches:
 ```bash
@@ -172,7 +250,7 @@ git restore .
 git branch -d feature/name
 ```
 
-## 7. Pushing and security
+## 8. Pushing and security
 
 * Before pushing, ensure the branch is up-to-date:
 ```bash
@@ -191,7 +269,7 @@ git push origin main
 git push --force-with-lease
 ```
 
-## 8. Checking changes and integrity
+## 9. Checking changes and integrity
 
 - Checking commit hashes:
 ```bash
@@ -203,7 +281,7 @@ git log --oneline --graph --decorate
 git fsck
 ```
 
-## 9. Backing up local repositories
+## 10. Backing up local repositories
 
 * Creating a local archive
 ```bash
@@ -215,7 +293,7 @@ tar -czf ~/backup-repository.tar.gz repository/
 ls -lh ~/backup-repository.tar.gz
 ```
 
-## 10. Tips
+## 11. Tips
 
 * Use a separate GitHub account for testing.
 * Don't push sensitive data.
@@ -223,7 +301,7 @@ ls -lh ~/backup-repository.tar.gz
 * Enable two-factor authentication.
 * Scan directories and logs before deleting.
 
-## 11. 🔑 Operating system password
+## 12. 🔑 Operating system password
 
 * Use a strong user password for your Linux account.
 * The password must be unique, sufficiently long, more than 10 characters, and randomly complex.
