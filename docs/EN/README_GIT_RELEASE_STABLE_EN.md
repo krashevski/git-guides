@@ -59,7 +59,7 @@ git tag -a stable -m "Stable release for git-guides"
 
 Check the tag:
 ```bash
-git show stable
+git tag
 ```
 
 ## 5️⃣ Publishing a branch and tag to a remote repository

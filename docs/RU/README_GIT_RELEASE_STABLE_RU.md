@@ -59,7 +59,7 @@ git tag -a stable -m "Stable release for git-guides"
 
 Проверить тег:
 ```bash
-git show stable
+git tag
 ```
 
 ## 5️⃣ Публикация ветки и тега на удалённый репозиторий
